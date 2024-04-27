@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+background-color: whitesmoke;
+}
+
+h1: :after {
+    font-family: Impact;
+    content: 'PORTILLO';
+    color: black;
+    margin-left: 5px;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(35, 120, 218);
+    color: whitesmoke;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1.portillo {
+    color: floralwhite;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color:red
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: bold;
+    color: rgb(43, 140, 231);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+}
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px;
+    background: rgb(238, 11, 11);
+    color: #fff;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaa;
+    margin: 50px;
+}
+
+.card header {
+padding: 20px;
+background: rgb(36, 162, 247);
+font-weight: bold;
+color: #ffffff;
+}
+
+.card header:hover {
+color: red;
+}
+
+.card img {
+    width: 100%;
+    min-width: 400px;
+    border-radius: var(--border-radius);
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaa;
+    margin: 20px;
+    align-items: center;
+}
+
+.card img:hover {
+    color: gray;
+}
+
+footer {
+    padding: 20px;
+    background-color:  rgb(36, 162, 247);
+}
+
+h3 {
+    text-align: justify;
+    font-size: 20px;
+    
+
+}
