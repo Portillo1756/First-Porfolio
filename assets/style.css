@@ -5,30 +5,19 @@
 }
 
 body {
-background-color: whitesmoke;
-}
-
-h1: :after {
-    font-family: Impact;
-    content: 'PORTILLO';
-    color: black;
-    margin-left: 5px;
+background-color: #ffffff;
 }
 
 .header {
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(35, 120, 218);
-    color: whitesmoke;
+    color: #ffffff;
+    background-color: #24a2f7;
 }
 
 .header h1 {
+    font-size: 40px;
     display: inline-block;
-    font-size: 48px;
-}
-
-.header h1.portillo {
-    color: floralwhite;
 }
 
 .header div {
@@ -46,7 +35,6 @@ h1: :after {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-
 }
 
 a {
@@ -65,25 +53,30 @@ main {
     margin-top: 5%;
 }
 
+.wrapper-main {
+    width: 1000px;
+    margin: 0 auto;
+}
 h2 {
-    font-size: bold;
-    color: rgb(43, 140, 231);
+    font-size: 40px;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 p {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
 
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    font-size: 20px;
 }
+
 .main-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 70px;
-    background: rgb(238, 11, 11);
     color: #fff;
 }
 
@@ -93,16 +86,17 @@ p {
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    flex: 0 0 300px;
+    flex: 0 0 0px;
     box-shadow: 10px 10px 5px #aaa;
-    margin: 50px;
+    margin: 30px;
 }
 
 .card header {
 padding: 20px;
-background: rgb(36, 162, 247);
+font-size: 40px;
 font-weight: bold;
 color: #ffffff;
+background-color: #24a2f7;
 }
 
 .card header:hover {
@@ -112,25 +106,45 @@ color: red;
 .card img {
     width: 100%;
     min-width: 400px;
-    border-radius: var(--border-radius);
     flex: 0 0 300px;
     box-shadow: 10px 10px 5px #aaa;
     margin: 20px;
-    align-items: center;
+    display: flex;
+    align-items: flex-start;
 }
 
-.card img:hover {
-    color: gray;
+.card p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #24a2f7;
+    font-size: 20px;
+    font-weight: bold;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
 }
 
 footer {
-    padding: 20px;
-    background-color:  rgb(36, 162, 247);
+    padding: 50px;
+    background-color: #24a2f7;
 }
 
-h3 {
-    text-align: justify;
+.footer h1 {
+    font-size: 40px;
+    color:#ffffff;
+}
+
+.footer div {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    
+}
+
+.footer div ul {
+    list-style-type: none;
+}
+
+.footer div ul li {
+    display: inline-block;
+    margin-left: 25px;
 
 }
